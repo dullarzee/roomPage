@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="roomPageCSS.css">
+  <script defer src="roomPage.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Room homepage</title>
+
+</head>
+
+<body>
+
+  <main>
+    <section id="section1"><!--1-->
+      <nav id="desktopNav">
+        <image alt="click to open menu" id="hamburger" src="images/icon-hamburger.svg"></image>
+        <image alt="logo" id="logo1" src="images/logo.svg"></image>
+        <span class="navSpan">home</span>
+        <span class="navSpan">shop</span>
+        <span class="navSpan">about</span>
+        <span class="navSpan">contact</span>
+      </nav>
+     <picture>
+      <source srcset="images/mobile-image-hero-3.jpg" media="(max-width:450px)">
+      <image alt="collection of furniture" aria-live="polite" class="furniture" src="images/desktop-image-hero-3.jpg" ></image>
+      </picture>
+      <!--<image alt="collection of furniture" aria-live="polite" class="furniture" src="images/desktop-image-hero-3.jpg" ></image>-->
+     
+      <div id="buttonDiv">
+        <image alt="button" id="backButton" role="button" src="images/icon-angle-left.svg"></image>
+        <image alt="button" id="nextButton" role="button" src="images/icon-angle-right.svg"></image>
+      </div>
+
+    </section>
+
+    <section class="slideIn" id="section2"><!--2-->
+      <h1 id="h1">Manufactured with the best materials </h1>
+      <p id="p1">
+        Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+        to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+        experience in this industry, we understand what customers want for their home and office.
+      </p>
+
+      <button id="button">SHOP NOW</button>
+      <image alt="" src="images/icon-arrow.svg">
+
+    </section>
+
+    <section id="section3"><!--3-->
+      <image alt="furniture" id="darkImage" src="images/image-about-dark.jpg"></image>
+
+    </section>
+
+    <section id="section4"><!--4-->
+      <h4 id="h4">ABOUT OUR FURNITURE</h4>
+      <p id="p2">
+        Our multifunctional collection blends design and function to suit your individual taste.
+  Make each room unique, or pick a cohesive theme that best express your interests and what
+  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+  or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+
+    </section>
+
+    <section id="section5"><!--5-->
+      <image alt="furniture" id="lightImage" src="images/image-about-light.jpg"></image>
+
+    </section>
+  </main>
+
+  <nav id="mobileNav">
+     <image alt="cancel icon" aria-label="click to close menu" id="closeMenu" src="images/icon-close.svg"></image>
+     <span class="navSpanMobile">home</span>
+     <span class="navSpanMobile">shop</span>
+     <span class="navSpanMobile">about</span>
+     <span class="navSpanMobile">contact</span>
+  </nav>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dullarzee</a>.
+    </div>
+  </footer>
+</body>
+</html>
